@@ -1,7 +1,8 @@
 /* Sara Lowenthal 2/24/25 */
 
 :root {
-    --color: rgba(185, 228, 28, 0.814);
+    --color: #B5EAD7;
+    --color2: #0d0e53;
     --spacing: 10px;
 }
 
@@ -10,13 +11,13 @@ header {
     left: 0;
     width: 100%;
     background-color: var(--color);
-    color: #0d0e53;
+    color: var(--color2);
     text-align: center;
     padding: var(--spacing);
     display: flex;
     align-items: center;
     z-index: 1000;
-    border-bottom: 3px solid #0d0e53;
+    border-bottom: 3px solid var(--color2);
     align-items: center;
     justify-content: center;
 }
@@ -29,15 +30,37 @@ header {
 
 main {
     line-height: 1.5;
-    padding: 15px;
+    padding-bottom: 10px;
+    color: var(--color2);
 }
 .summary{ 
     line-height: 1.5;
-    padding: 20px 30px 0px 30px;
+    padding: 15px 30px 0px 30px;
+    margin: 15px 30px 0px 30px;
+}
+
+form {
+    color: var(--color2);
+}
+
+.btn{
+    background-color: var(--color) !important;;
+    color: var(--color2);
+    border-color: var(--color2);
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: var(--color2);
+    color: var(--color2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .resultText {
-    color: var(--color);
+    color: var(--color2);
     font-size: 30px;
     text-align: center;
     width: 100%;
@@ -45,3 +68,4 @@ main {
     padding: 5px;
     display: block;
 }
+
