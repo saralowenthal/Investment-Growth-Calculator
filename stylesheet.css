@@ -1,0 +1,47 @@
+/* Sara Lowenthal 2/24/25 */
+
+:root {
+    --color: rgba(185, 228, 28, 0.814);
+    --spacing: 10px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color);
+    color: #0d0e53;
+    text-align: center;
+    padding: var(--spacing);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    border-bottom: 3px solid #0d0e53;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: var(--spacing);
+}
+
+main {
+    line-height: 1.5;
+    padding: 15px;
+}
+.summary{ 
+    line-height: 1.5;
+    padding: 20px 30px 0px 30px;
+}
+
+.resultText {
+    color: var(--color);
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 5px;
+    display: block;
+}
